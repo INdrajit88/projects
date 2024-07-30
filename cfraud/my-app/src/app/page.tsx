@@ -5,6 +5,8 @@ export default async function Home() {
   const user=await currentUser();
   
   return (
-    <div>Homepage</div>
+    <div className="flex justify-center items-center h-screen">
+      Homepage
+    </div>
   )
 }
